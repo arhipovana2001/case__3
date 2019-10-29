@@ -1,5 +1,3 @@
-#TODO: LOCAL_GERMANY_LIDA
-
 # Localization file (germany).
 YEARS = "Laufzeit der Kapitalplatzierung (Jahre): "
 ERROR_1 = "Der Fehler. Geben Sie das Jahr erneut ein: "
