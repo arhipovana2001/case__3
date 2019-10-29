@@ -1,3 +1,10 @@
+"""Case-study #3 Investment report
+Developers:
+Revtova L. (60%)
+Arkhipova A. (60%)
+Nikitina A. (10%).
+
+"""
 import local
 choose = int(input(local.CHOOSE))
 if choose == 1:
