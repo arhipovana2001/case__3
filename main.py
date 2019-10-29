@@ -41,7 +41,6 @@ if choose == 2:
         print("|       |   основа   |  сумма %   |           |")
         print("| месяц | инвестиций |  за месяц  |  капитал  |")
         print("-----------------------------------------------")
-
         for months in range(1, 12 + 1):
             print("|", "{:3.0f}".format(months), "  |", end="")
             print(format(initial_capital, "12.2f"), end="")
@@ -61,7 +60,6 @@ elif choose == 3:
         print("|       |   основа   |  сумма %   |           |")
         print("| месяц | инвестиций |  за месяц  |  капитал  |")
         print("-----------------------------------------------")
-
         for months in range(1, 12 + 1):
             print("|", "{:3.0f}".format(months), "  |", end="")
             print(format(initial_capital, "12.2f"), end="")
@@ -85,7 +83,6 @@ elif choose == 1:
               "|  ", lc.PRINT_INCOME, "  | ",
               lc.PRINT_INVESTMENT_INFUSION_1, "|")
         print("-----------------------------------------------")
-
         for months in range(1, 12 + 1):
             print("|", "{:3.0f}".format(months), "  |", end="")
             print(format(initial_capital, "12.2f"), end="")
